@@ -1,6 +1,7 @@
 from PIL import Image, ImageDraw, ImageFilter
 import random
 import math
+from classes.colors import Color
 
 NB_STRING = 300
 CANVAS_SIZE = 250
@@ -89,6 +90,7 @@ if __name__ == "__main__":
         population.append(Individu())
 
     for generation in range(NB_GENERATION):
+        print('GENERATION', Color.PURPLE,generation, Color.END)
         popFitness = []
         for individu in population:
             popFitness.append((calcFitness(individu, imageCanvas), random.random(), individu))
