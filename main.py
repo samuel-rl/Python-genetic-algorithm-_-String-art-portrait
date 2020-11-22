@@ -3,9 +3,9 @@ import random
 import math
 from classes.colors import Color
 
-NB_STRING = 300
-CANVAS_SIZE = 250
-POP_SIZE = 100
+NB_STRING = 200
+CANVAS_SIZE = 200
+POP_SIZE = 50
 NB_GENERATION = 100
 STRING_WIDTH = 1
 
