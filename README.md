@@ -11,12 +11,21 @@ NB_GENERATION = 100
 STRING_WIDTH = 1
 ```
 
+trying to recreate images with strings only... 
+
+generation 0 :
+
+![demo](https://github.com/samuel3105/Python-genetic-algorithm-_-String-art-portrait/blob/master/results/generation0.png?raw=true)
+
+
+[...]
+
 
 ## Download and start
 ```sh
 >> git clone https://github.com/samuel3105/Python-genetic-algorithm-_-String-art-portrait.git
 
->> cd ./react-native-gestureHandeler
+>> cd ./Python-genetic-algorithm-_-String-art-portrait
 
 >> python3 main.py
 ```
